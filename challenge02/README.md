@@ -17,9 +17,11 @@ Fn highSecond sorts the array from smallest to largest number. It returns in the
 ### Testing
 
 To be able to run the tests the User needs to type
-    **$ npm i**
+
+    $ npm i
 
 this will install the required packages
 
 to run the actual tests the user should type
-    **$ npm test**
+
+    $ npm test
