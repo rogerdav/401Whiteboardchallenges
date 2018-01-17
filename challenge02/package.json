@@ -1,0 +1,20 @@
+{
+  "name": "challenge02",
+  "version": "1.0.0",
+  "description": "Whiteboard Challenge 2 ",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest --verbose"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "eslint": "^4.15.0"
+  },
+  "devDependencies": {
+    "jest": "^22.1.1"
+  }
+}
