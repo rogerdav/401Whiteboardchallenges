@@ -1,0 +1,21 @@
+{
+  "name": "whiteboardchallenge05",
+  "version": "1.0.0",
+  "description": "Find the middle of a linked list",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest --verbose"
+  },
+  "author": "rnd",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^4.15.0",
+    "jest": "^22.1.4"
+  },
+  "dependencies": {
+    "tree": "^0.1.3"
+  }
+}
