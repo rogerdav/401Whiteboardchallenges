@@ -1,0 +1,15 @@
+{
+  "name": "whiteboardchallenge07",
+  "version": "1.0.0",
+  "description": "checks to see if a linked list is circular",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose"
+  },
+  "author": "rnd",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^4.16.0",
+    "jest": "^22.1.4"
+  }
+}
