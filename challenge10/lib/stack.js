@@ -2,24 +2,29 @@
 
 module.exports = function(str) {
 
+  var flag = false;
+  let stackArray = [];
   if (typeof(str) != 'string' || arguments.length<1) return null;
   for (let i = 0; i < str.length; i++) {
-    let stackArry = [];
-    let flag = false;
+
     if (str[i] === '{') {
       stackArray.push('{');
       flag = true;
     }
 
+
     if (str[i] === '}') {
-      stackArray.pop();
+      if(stackArray.length === 0) {
+        return false;
+      }
+      if(stackArray.length != 0) {
+        stackArray.pop();
+      }
     }
 
   }
-
-
-
-
-
-
+  if(flag === false) {
+    return null;
+  }
+  return true;
 };
