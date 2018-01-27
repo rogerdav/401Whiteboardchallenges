@@ -5,9 +5,11 @@
   "main": "index.js",
   "directories": {
     "lib": "lib"
-  },"scripts": {
+  },
+  "scripts": {
     "test": "jest -i",
     "test:debug": "DEBUG=http* jest -i",
+    "start": "node index.js",
     "start:watch": "nodemon index.js",
     "start:debug": "DEBUG=http* nodemon index.js"
   },
@@ -28,6 +30,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "debug": "^3.1.0",
     "jest": "^22.1.4"
   }
 }
