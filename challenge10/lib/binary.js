@@ -9,50 +9,26 @@ module.exports = function(array, number) {
 
   let min = 0;
   let max = array.length-1;
-  let current = parseInt(array.length/2);
-
+  let current;
 
   debug('current before while loop', current);
 
 
   while(min <= max) {
+    current = (min + max) /2 | 0;
 
-    // if(array[current] < number) {
-    //
-    //   if(array[current] === number) {
-    //     return {value: number, index: current};
-    //   }
-    //
-    // }
-    if(array[current] > number) {
-      max = current -1;
-      current = current - parseInt((max-min)/2);
-      debug('hhhhhhhh');
-      if(array[current] === number) {
-        return {value: number, index: current};
-      }
+
+
+    if(array[current] < number) {
+      min++;
+    } else if ( array[current] > number) {
+      max--;
+    } else {
+      if(array[current] === number) return {value: number, index: current};
     }
-
   }
 
-
-  if(array[current] === number) {
-    return {value: number, index: current};
-  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  if(array[current] != number) return 'The number was not in the list';
 
 
 
