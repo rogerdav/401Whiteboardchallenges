@@ -1,7 +1,7 @@
 'use strict';
 
 const binary = require('./lib/binary.js');
-const stack = require('./lib/stack.js');
+const stack = require('./lib/checkbraces.js');
 
 let testFalse = '{a}{b}{c}{d}{{e}}}';
 let testTrue = '{a}{b{{3}}}';

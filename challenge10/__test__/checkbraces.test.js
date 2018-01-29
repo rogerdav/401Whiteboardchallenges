@@ -1,6 +1,6 @@
 'use strict';
 
-const stack = require('../lib/stack');
+const stack = require('../lib/checkbraces');
 require('jest');
 
 
