@@ -1,0 +1,18 @@
+{
+  "name": "challenge14",
+  "version": "1.0.0",
+  "description": "remove consecutive duplicates from a linked list using a stack",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest -i --verbose",
+    "start": "node index.js"
+  },
+  "author": "rnd",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^22.1.4"
+  }
+}
