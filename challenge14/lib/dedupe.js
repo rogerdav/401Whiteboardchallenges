@@ -8,6 +8,7 @@ module.exports = function(head) {
   let stackA = new stack();
   let listA = new list();
   if (!head) return null;
+  if(arguments.length < 1) return null;
   let current = head;
   
   while(current) {

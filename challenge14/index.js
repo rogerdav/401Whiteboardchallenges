@@ -1,7 +1,7 @@
 'use strict';
 
 const list = require('./lib/list-build');
-const mod = require('./lib/solution');
+const mod = require('./lib/dedupe');
 
 
 const arrayForTest = [1,2,3,4,4,5,6];
