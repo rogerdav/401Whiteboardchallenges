@@ -1,6 +1,7 @@
 'use strict';
 
 const Queue = require('./queue');
+var emptyNode = [];
 
 const TreeNode = class {
   constructor(val) {
@@ -24,7 +25,7 @@ const K_ary = module.exports = class {
     while(queue.back) {
       current = queue.dequeue();
 
-      console.log('current', current);
+      // console.log('current', current);
       callback(current);
 
       current.val.children.map(c => queue.enqueue(c));
@@ -50,8 +51,23 @@ const K_ary = module.exports = class {
     return this;
   }
 
+  // finds the leaves on the tree, ie nodes with no children
+  findLeaf() {
+
+    this.breadthFirst(node => {
+  
+      if(node.val.children.length === 0) {
+        emptyNode.push(node);
+        return;
+      }
+    });
+    
+    
+    return emptyNode;
+  }
   // Removals
   removeByVal(val) {
     // Remove the first node you find that matches val
   }
+ 
 };
