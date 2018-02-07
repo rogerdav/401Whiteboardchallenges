@@ -1,0 +1,34 @@
+{
+  "name": "challenge17",
+  "version": "1.0.0",
+  "description": "This will sum the values of each node in the tree",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+   
+    "test": "jest -i",
+    "lint": "eslint .",
+    "lint:test": "npm run lint && npm test"
+  },
+  "jest": {
+    "verbose": true,
+    "testEnvironment": "node",
+    "collectCoverage": true,
+    "coverageDirectory": "./coverage",
+    "coverageThreshold": {
+      "global": {
+        "branches": 80,
+        "functions": 80,
+        "lines": 80,
+        "statements": 80
+      }
+    }
+  },
+  "author": "RND",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^22.1.4"
+  }
+}
