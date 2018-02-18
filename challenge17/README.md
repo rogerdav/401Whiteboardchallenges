@@ -1,6 +1,7 @@
 #K-ary Tree Find Sum
 
 This will use a method, accumulateValue to find the sum of all the nodes in a K-ary tree.
+The BigO of this is O(n);
 
 
 
