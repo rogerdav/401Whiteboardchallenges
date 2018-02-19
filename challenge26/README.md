@@ -1,6 +1,6 @@
-#K-ary Tree
+#.map() .filter() and .reduce()
 
-This will read a html file and break the data into it's html elements. It will generate a k-ary tree out of a linked list with the html elements correctly associated with their parents
+Create a utils.js module which exports the following methods: map(), filter(), and reduce(). You will implement these methods from scratch, not utilizing the built-in array methods.
 
 
 
@@ -8,7 +8,7 @@ This will read a html file and break the data into it's html elements. It will g
 
 All that is necessary is to type
 ```npm install```  
-That will intall the required dependencies.
+That will install the required dependencies.
 
 
 ## Testing
