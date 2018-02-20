@@ -1,4 +1,5 @@
 #27 Rotate a 2D array 90 Degrees
+## Big O(n)
 
 Given a 2-dimensional array of numbers, rotate the array 90 degrees.
 
