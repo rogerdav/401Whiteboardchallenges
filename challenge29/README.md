@@ -1,24 +1,35 @@
-#.map() .filter() and .reduce()
+#Whiteboard Challenge 29
 
-Create a utils.js module which exports the following methods: map(), filter(), and reduce(). You will implement these methods from scratch, not utilizing the built-in array methods.
+Write a method to sort an array of strings so that all the anagrams are next to each other
 
-Big O notation
-map = O(n) filter = O(n) Reduce = O(n)
+I have hashed each string in the Array, pushed the string with the corresponding hash-value into an object and the sorted that new array, by value. Then returned the springs it the retyrned array in the new sorted order.
 
-Installing
+example:
+
+sortAnagrams('acre race care act cat tac') =>
+
+{
+  acre : {acre, race, care},
+  act: {act, cat, tac},
+}
+Once all the words have been grouped into lists by anagram we can put them back into the array.
+
+## Bog O = O(n).
+
+##Installing
 All that is necessary is to type npm install
 That will install the required dependencies.
 
-Testing
+##Testing
 To run the automated test suite,
-
+```
 npm test
-
-Authors
+```
+##Authors
 Roger Davenport - RND
 License
 This project is licensed under the MIT License -
 
-Acknowledgments
+##Acknowledgments
 Scott Schmidt
 Google
