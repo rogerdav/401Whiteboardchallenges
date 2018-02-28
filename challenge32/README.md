@@ -1,6 +1,7 @@
 #Whiteboard Challenge 31
 
 find the nth in a fibonacci sequence. 
+This problem should not be solved recursively because the amount of numbers that need to be stored on the call stack gets exponentially bigger. It is better to cache the sequence and simply call the nth in the array.
 
 ## Bog O = O(n).
 
