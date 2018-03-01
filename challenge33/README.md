@@ -1,7 +1,7 @@
-#Whiteboard Challenge 31
+#Whiteboard Challenge 33
 
-find the nth in a fibonacci sequence. 
-This problem should not be solved recursively because the amount of numbers that need to be stored on the call stack gets exponentially bigger. It is better to cache the sequence and simply call the nth in the array.
+This function takes two arguments, the base numer as its first and the exponent as its second.
+It return the value of the base exponentation. The result will have each individual interget summed and that will be the return of the function.
 
 ## Bog O = O(n).
 
