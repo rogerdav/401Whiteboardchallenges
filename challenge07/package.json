@@ -6,7 +6,8 @@
   "scripts": {
     "test": "jest --verbose",
     "start": "node index.js"
-  }, "jest": {
+  },
+  "jest": {
     "verbose": true,
     "testEnvironment": "node",
     "collectCoverage": true,
@@ -20,7 +21,6 @@
       }
     }
   },
-
   "author": "rnd",
   "license": "MIT",
   "devDependencies": {
